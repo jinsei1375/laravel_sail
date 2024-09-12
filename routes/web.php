@@ -12,3 +12,7 @@ Route::get('/', function () {
             'nullCarbon' => $nullCarbon,
         ]);
 });
+
+Route::get('/react', function () {
+    return view('react');
+});
